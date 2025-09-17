@@ -4,10 +4,7 @@
   box-sizing: border-box;
 }
 
-body {
-  font: normal 20px / 30px "Muli", Helvetica, Arial, Verdana, sans-serif;
- 
-}
+
 
 /* Top Contact Bar */
 .top-bar {
@@ -1008,3 +1005,4 @@ ease;
   margin: 0;               /* remove default margin */
   font-family: Arial, Helvetica, sans-serif;
 }
+
