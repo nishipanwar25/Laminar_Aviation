@@ -6,7 +6,7 @@
 
 body {
   font: normal 20px / 30px "Muli", Helvetica, Arial, Verdana, sans-serif;
-  font-weight: 800;
+ 
 }
 
 /* Top Contact Bar */
@@ -869,7 +869,7 @@ ease;
 
 /* footer css starts */
 .footer {
-  background-color: #111111;
+  background-color: #1b1b1b;
   color: #ffffff;
   padding: 50px 20px 20px;
   font-family: Arial, sans-serif;
@@ -967,12 +967,13 @@ ease;
   padding-top: 15px;
   text-align: center;
   display: flex;
-  justify-content: space-between;
+  justify-content:space-around;
 }
 
 .footer-logo img {
-  max-width: 120px;
+  max-width: 144px;
   margin-bottom: 10px;
+  margin-right: 277px;
 }
 
 .footer-bottom p {
