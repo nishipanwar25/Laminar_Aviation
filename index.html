@@ -48,7 +48,7 @@
                 
                 <ul class="nav-menu" id="navMenu">
                     <li><a href="#" class="active">Home</a></li>
-                    <li><a href="#about">About Us</a></li>
+                    <li><a href="./about.html">About Us</a></li>
                     <li><a href="#fly">Fly Now</a></li>
                     <li><a href="#news">News and Updates</a></li>
                     <li><a href="#contact">Contact Us</a></li>
@@ -137,14 +137,14 @@
     <div class="feature-box">
       <div class="feature-icon">
         <!-- Replace with your icon (SVG or img) -->
-        <span style="font-size: 62px;">★</span>
+        <span style="font-size: 65px;">★</span>
       </div>
       <h3>SAFETY AND QUALITY</h3>
       <p>
         We are committed to assuring that our trainees will receive the highest 
         quality and safety training given by ground & flight instructors.
       </p>
-      <a href="#" class="feature-btn">
+      <a style="font-size: 15px;"  href="#" class="feature-btn">
         Fly Now <span>&#8594;</span>
       </a>
     </div>
@@ -152,14 +152,18 @@
     <!-- Feature Box 2 -->
     <div class="feature-box">
       <div class="feature-icon">
-        <span style="font-size: 62px;">✈</span>
+        <span style="font-size: 65px;   transform: rotate(-42deg);">✈</span>
       </div>
       <h3>AIRCRAFT</h3>
-      <p>
+      <p style="  display: -webkit-box;
+  -webkit-line-clamp: 3;     /* show only 3 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;">
         We take pride in having a robust fleet composed of Cessna 172, 152, 150, 
         and Piper Seneca II, with the addition of Redbird MCX flight simulator.
       </p>
-      <a href="#" class="feature-btn">
+      <a style="font-size: 15px;" href="#" class="feature-btn">
         Learn More <span>&#8594;</span>
       </a>
     </div>
@@ -167,7 +171,7 @@
     <!-- Feature Box 3 -->
     <div class="feature-box">
       <div class="feature-icon">
-        <span style="font-size: 62px;">👤</span>
+        <span style="font-size: 65px;  filter: brightness(0) invert(1);">👤</span>
       </div>
       <h3>TESTIMONIALS</h3>
       <p>
@@ -175,12 +179,16 @@
         international airlines around the globe, carrying the standards of 
         Laminar Aviation.
       </p>
-      <a href="#" class="feature-btn">
+      <a style="font-size: 15px;" href="#" class="feature-btn">
         Read More <span>&#8594;</span>
       </a>
     </div>
 
   </div>
+</section>
+
+<section class="news-update">
+  <h2>Get updated with the latest aviation news and events.</h2>
 </section>
 
 
@@ -217,16 +225,56 @@
     <!-- Column 1: Contact Info -->
     <div class="footer-column">
       <h3>Get in touch</h3>
-      <p><strong>Email</strong><br>info@laminaraviation.com</p>
-      <p><strong>Call Us</strong><br>+63 920 956 0075</p>
-      <p><strong>Location</strong><br>Boton Ramp, Subic Bay Freeport Zone,<br>Subic, Philippines</p>
+      <p><strong>Email</strong><br><p style="color: #85868c; font-size: 14px;">info@laminaraviation.com</p></p>
+      <p><strong>Call Us</strong><br><p style="color: #85868c; font-size: 14px;">+63 920 956 0075 </p></p>
+      <p><strong>Location</strong><br> <p  style="color: #85868c; font-size: 14px;">Boton Ramp, Subic Bay Freeport Zone,<br>Subic, Philippines</p></p>
 
-      <div class="footer-social">
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-      </div>
+        <div class="social-links" style="display:flex; gap:10px;">
+  <a href="#" aria-label="Facebook" 
+     style="display:inline-flex; align-items:center; justify-content:center; 
+            width:25px; height:25px; border-radius:50%; 
+            background:transparent; border:2px solid #d3d3d3;
+            color:white; font-size:18px; 
+            transition:all 0.3s ease;" 
+     onmouseover="this.style.color='#1877f2'" 
+     onmouseout="this.style.color='white'">
+    <i class="fab fa-facebook-f"></i>
+  </a>
+
+  <a href="#" aria-label="Instagram" 
+     style="display:inline-flex; align-items:center; justify-content:center; 
+            width:25px; height:25px; border-radius:50%; 
+            background:transparent; border:2px solid #d3d3d3;
+            color:white; font-size:18px; 
+            transition:all 0.3s ease;" 
+     onmouseover="this.style.color='#e4405f'" 
+     onmouseout="this.style.color='white'">
+    <i class="fab fa-instagram"></i>
+  </a>
+
+  <a href="#" aria-label="Twitter" 
+     style="display:inline-flex; align-items:center; justify-content:center; 
+            width:25px; height:25px; border-radius:50%; 
+            background:transparent; border:2px solid #d3d3d3;
+            color:white; font-size:18px; 
+            transition:all 0.3s ease;" 
+     onmouseover="this.style.color='#1da1f2'" 
+     onmouseout="this.style.color='white'">
+    <i class="fab fa-twitter"></i>
+  </a>
+
+  <a href="#" aria-label="LinkedIn" 
+     style="display:inline-flex; align-items:center; justify-content:center; 
+            width:25px; height:25px; border-radius:50%; 
+            background:transparent; border:2px solid #d3d3d3;
+            color:white; font-size:18px; 
+            transition:all 0.3s ease;" 
+     onmouseover="this.style.color='#0077b5'" 
+     onmouseout="this.style.color='white'">
+    <i class="fab fa-linkedin-in"></i>
+  </a>
+</div>
+
     </div>
 
     <!-- Column 2: Navigation -->
